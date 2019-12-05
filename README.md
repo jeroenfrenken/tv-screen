@@ -1,5 +1,10 @@
 # tv-screen
 
+Project for the tv screen
+
+use ./build.sh for buidling on raspi. After build reboot the raspi.
+./kiosk.sh is used to start chromium in kiosk mode.
+
 ## Project setup
 ```
 yarn install
@@ -24,6 +29,3 @@ yarn run test
 ```
 yarn run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
