@@ -30,18 +30,18 @@
     @Component
     export default class SlideTogether extends Vue {
 
-        public items: {
-            title: string
-        }[] = [];
+        public items: Array<{
+            title: string,
+        }> = [];
 
         public async mounted() {
             const parser = new Parser();
             const CORS_PROXY = 'https://cors-anywhere.herokuapp.com/';
-            let feed: any = await parser.parseURL(CORS_PROXY + 'https://www.nu.nl/rss/Algemeen');
+            const feed: any = await parser.parseURL(CORS_PROXY + 'https://www.nu.nl/rss/Algemeen');
 
             feed.items.forEach((item: any) => {
                 this.items.push({
-                    title: item.title
+                    title: item.title,
                 });
             });
         }
