@@ -21,7 +21,6 @@
 		justify-content: center;
 	}
 
-
 	.logo {
 		float: left;
 		width: 30vw;

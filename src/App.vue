@@ -27,8 +27,8 @@
     @Component({
         components: {
             SlideTogether,
-						SingleSlideUpStairs,
-						SingleSlideDownStairs,
+			SingleSlideUpStairs,
+			SingleSlideDownStairs,
         },
     })
     export default class App extends Vue {
@@ -36,7 +36,7 @@
         public timer?: number = undefined;
 
         // Slide time in miliseconds
-        public slideTime: number = 2000;
+        public slideTime: number = 120000;
 
         public activeSlide: screenSlides = screenSlides.SINGLE_SLIDE_DOWN_STAIRS;
 
@@ -68,6 +68,10 @@
 </script>
 
 <style lang="scss">
+	* {
+		box-sizing: border-box;
+	}
+
 	body,
 	html {
 		padding: 0;
