@@ -36,7 +36,7 @@
         public timer?: number = undefined;
 
         // Slide time in miliseconds
-        public slideTime: number = 120000;
+        public slideTime: number = 60000;
 
         public activeSlide: screenSlides = screenSlides.SINGLE_SLIDE_DOWN_STAIRS;
 
