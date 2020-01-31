@@ -7,8 +7,8 @@
             </div>
             <div class="card">
                 <h1>Eerste verdieping</h1>
-                <img src="/assets/exitable.svg">
-                <img src="/assets/ketjapp.svg">
+                <img src="/assets/exitable.png">
+                <img src="/assets/ketjapp.png">
             </div>
         </div>
         <div class="ticker-wrap">

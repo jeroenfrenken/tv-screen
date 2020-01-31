@@ -33,10 +33,10 @@
 	}
 
 	.left {
-		background-image: url("/assets/exitable.svg");
+		background-image: url("/assets/exitable.png");
 	}
 
 	.right {
-		background-image: url("/assets/ketjapp.svg");
+		background-image: url("/assets/ketjapp.png");
 	}
 </style>
