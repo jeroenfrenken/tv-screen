@@ -1,15 +1,15 @@
 <template>
-	<div id="app">
-		<single-slide-down-stairs
-				v-if="activeSlide === slides.SINGLE_SLIDE_DOWN_STAIRS"
-		/>
-		<single-slide-up-stairs
-				v-if="activeSlide === slides.SINGLE_SLIDE_UP_STAIRS"
-		/>
-		<slide-together
-				v-if="activeSlide === slides.SLIDE_TOGETHER"
-		/>
-	</div>
+    <div id="app">
+        <single-slide-down-stairs
+                v-if="activeSlide === slides.SINGLE_SLIDE_DOWN_STAIRS"
+        />
+        <single-slide-up-stairs
+                v-if="activeSlide === slides.SINGLE_SLIDE_UP_STAIRS"
+        />
+        <slide-together
+                v-if="activeSlide === slides.SLIDE_TOGETHER"
+        />
+    </div>
 </template>
 
 <script lang="ts">
@@ -27,8 +27,8 @@
     @Component({
         components: {
             SlideTogether,
-			SingleSlideUpStairs,
-			SingleSlideDownStairs,
+            SingleSlideUpStairs,
+            SingleSlideDownStairs,
         },
     })
     export default class App extends Vue {
@@ -68,14 +68,14 @@
 </script>
 
 <style lang="scss">
-	* {
-		box-sizing: border-box;
-	}
+    * {
+        box-sizing: border-box;
+    }
 
-	body,
-	html {
-		padding: 0;
-		margin: 0;
-		font-family: 'Lato', sans-serif;
-	}
+    body,
+    html {
+        padding: 0;
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+    }
 </style>
